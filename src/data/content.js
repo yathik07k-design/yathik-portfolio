@@ -16,8 +16,8 @@ export const profile = {
   email: "yathikdvg2002@gmail.com",
   linkedin: "https://www.linkedin.com/in/yathik-k-b37498281", // PLACEHOLDER: Add LinkedIn URL
   github: null, // PLACEHOLDER: Add GitHub URL
-  photo: "/images/profile.jpg", // PLACEHOLDER: replace with real photo
-  intro:
+  image: "/yathik-portfolio/images/profile.jpg", // PLACEHOLDER: replace with real photo
+  intro:   
   "Electronics & Communication Engineering graduate with a strong foundation in Embedded Systems and hands-on experience in BMS operations within a data-centre environment. Trained in AutoCAD and AutoCAD Electrical, with practical exposure to 2D drafting, electrical schematics, wiring diagrams and technical documentation.",
   about:
   "Electronics & Communication Engineering graduate with a practical engineering background developed through Embedded Systems training, academic projects, and hands-on experience in Building Management Systems. Gained real-world exposure as a BMS Operator in a data-centre environment, monitoring HVAC, AHU, chiller and power systems. Further expanded my technical skills through AutoCAD and AutoCAD Electrical training, with hands-on exposure to 2D drafting, electrical schematics, wiring diagrams and technical documentation.",
