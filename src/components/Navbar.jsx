@@ -60,7 +60,7 @@ export default function Navbar() {
           ))}
         </nav>
 
-        <a href="/resume.pdf" download className="btn navbar-cta">
+      <a href={`${import.meta.env.BASE_URL}resume.pdf`} download className="btn navbar-cta">
           Download Resume
         </a>
 
@@ -70,7 +70,7 @@ export default function Navbar() {
           aria-expanded={menuOpen}
           onClick={() => setMenuOpen((v) => !v)}
         >
-          <span />
+          <span />   
           <span />
           <span />
         </button>
@@ -82,7 +82,7 @@ export default function Navbar() {
             {l.label}
           </button>
         ))}
-        <a href="/resume.pdf" download className="btn" onClick={() => setMenuOpen(false)}>
+        <a href={`${import.meta.env.BASE_URL}resume.pdf`} download className="btn" onClick={() => setMenuOpen(false)}>
           Download Resume
         </a>
       </div>
