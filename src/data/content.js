@@ -9,21 +9,21 @@ import inventeronCertificateImage from "../assets/inventeron_certificate.png";
 
 
 export const profile = {
-  name: "Yathik K",
+  name: "Yathik K",   
  title: "Electronics & Communication Engineer",
   subtitle: "Embedded Systems · BMS Operations · AutoCAD · AutoCAD Electrical ",
   phone: "+91-9741432959",
   email: "yathikdvg2002@gmail.com",
   linkedin: "https://www.linkedin.com/in/yathik-k-b37498281", // PLACEHOLDER: Add LinkedIn URL
   github: null, // PLACEHOLDER: Add GitHub URL
-  image: "/yathik-portfolio/images/profile.jpg", // PLACEHOLDER: replace with real photo
+photo: `${import.meta.env.BASE_URL}images/profile.jpg`, // PLACEHOLDER: replace with real photo
   intro:   
   "Electronics & Communication Engineering graduate with a strong foundation in Embedded Systems and hands-on experience in BMS operations within a data-centre environment. Trained in AutoCAD and AutoCAD Electrical, with practical exposure to 2D drafting, electrical schematics, wiring diagrams and technical documentation.",
   about:
   "Electronics & Communication Engineering graduate with a practical engineering background developed through Embedded Systems training, academic projects, and hands-on experience in Building Management Systems. Gained real-world exposure as a BMS Operator in a data-centre environment, monitoring HVAC, AHU, chiller and power systems. Further expanded my technical skills through AutoCAD and AutoCAD Electrical training, with hands-on exposure to 2D drafting, electrical schematics, wiring diagrams and technical documentation.",
 };
 
-export const journey = [   
+export const journey = [              
   {
     stage: "Engineering",
     type: "Education",
@@ -156,7 +156,7 @@ export const projects = [
     overview: "A wearable smart-safety vest built for workers and cyclists who need better visibility on the road.",
     objective: "Developed a smart safety vest to enhance visibility and safety for workers and cyclists.",
     technologies: ["High-visibility LEDs", "ADXL345 Sensor", "IR Sensor", "GPS","Blynk Application" ,"ESP32 Microcontroller","Buzzer"],
-    image: "/src/assets/intellivest.jpg",// PLACEHOLDER: add project image
+   image: intellivestImage,// PLACEHOLDER: add project image
   },
   {
     type: "Training Project",
