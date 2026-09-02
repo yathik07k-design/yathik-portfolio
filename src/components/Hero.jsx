@@ -33,13 +33,13 @@ export default function Hero() {
             </button>
 
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               download
               className="btn btn-outline-light"
             >
               Download Resume
             </a>
-
+    
             <button
               className="btn btn-outline-light"
               onClick={() => go("contact")}
