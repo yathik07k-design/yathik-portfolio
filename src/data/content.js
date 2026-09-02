@@ -23,7 +23,7 @@ export const profile = {
   "Electronics & Communication Engineering graduate with a practical engineering background developed through Embedded Systems training, academic projects, and hands-on experience in Building Management Systems. Gained real-world exposure as a BMS Operator in a data-centre environment, monitoring HVAC, AHU, chiller and power systems. Further expanded my technical skills through AutoCAD and AutoCAD Electrical training, with hands-on exposure to 2D drafting, electrical schematics, wiring diagrams and technical documentation.",
 };
 
-export const journey = [
+export const journey = [   
   {
     stage: "Engineering",
     type: "Education",
