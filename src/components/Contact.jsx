@@ -17,12 +17,22 @@ export default function Contact() {
             <p className="contact-role">{profile.title}</p>
 
             <div className="contact-actions">
-              <a className="btn" href={`mailto:${profile.email}`}>
-                Email
-              </a>
-              <a className="btn btn-outline-light" href={`tel:${profile.phone}`}>
-                Call
-              </a>
+               <a
+  className="btn"
+  href="https://mail.google.com/mail/?view=cm&fs=1&to=yathikdvg2002@gmail.com"
+  target="_blank"
+  rel="noreferrer"
+>
+  Email
+</a>
+              <a
+  className="btn btn-outline-light"
+  href="https://wa.me/919741432959"
+  target="_blank"
+  rel="noreferrer"
+>
+  call
+</a>
             </div>
           </div>
 
